@@ -1,8 +1,13 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
 function App(){
  return (
-   <div>Hellooo</div>
+   <div>
+     <Navbar />
+     <Wrapper />
+   </div>
+
  )
 }
 
