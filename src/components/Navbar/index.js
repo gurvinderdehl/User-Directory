@@ -1,8 +1,12 @@
 import React from "react";
 
-function Navbar(){
+function Navbar() {
     return (
-        <div>Navbar</div>
+        <nav className="navbar navbar-light bg-primary">
+            <div className="container-fluid">
+                <a className="navbar-brand">Navbar</a>
+  </div>
+</nav>
     )
 
 }
