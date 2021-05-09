@@ -28,6 +28,10 @@ function UserTable() {
                     title={user.title}
                     firstName={user.firstName}
                     lastName={user.lastName}
+                    email={user.email}
+                    phone={user.phone}
+                    location={user.location}
+                    photo={user.photo}
                 />
             ))}
         </div>

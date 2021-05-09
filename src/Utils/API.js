@@ -10,12 +10,11 @@ export default {
                     return {
                         title: user.name.title,
                         firstName: user.name.first,
-                        lastName: user.name.last
-
-                        // email
-                        // phone
-                        // age OR dob
-                        // location
+                        lastName: user.name.last,
+                        email: user.email,
+                        phone: user.phone,
+                        location: user.city,
+                        photo: user.picture.large
                     }
                 })
             })
