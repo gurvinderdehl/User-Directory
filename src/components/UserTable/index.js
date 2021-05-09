@@ -50,6 +50,19 @@ function UserTable() {
 
     }
 
+    function sortAlphabetical() {
+        const sorted = users.sort((result1, result2) => {
+            if (result1.firstName < result2.firstName) {
+                return -1;
+            }
+            if (result1.firstName > result2.firstName) {
+                return 1;
+            }
+            return 0;
+        });
+
+        setUsers([...sorted]);
+    }
 
     return (
         <div>
@@ -58,6 +71,7 @@ function UserTable() {
                 handleInputChange={handleInputChange}
                 handleFormSubmit={handleFormSubmit} />
 
+            <button type="submit" className="btn" onClick={sortAlphabetical}>Sort in Alphabetical order</button>
             <Column 
             size="md-12">
                 <table className="table">

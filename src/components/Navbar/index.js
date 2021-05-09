@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-light bg-primary">
             <div className="container-fluid">
-                <a className="navbar-brand">Navbar</a>
+                <a className="navbar-brand"></a>
   </div>
 </nav>
     )
