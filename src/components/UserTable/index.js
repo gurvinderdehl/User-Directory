@@ -27,6 +27,7 @@ function UserTable() {
                 <User
                     title={user.title}
                     firstName={user.firstName}
+                    lastName={user.lastName}
                 />
             ))}
         </div>

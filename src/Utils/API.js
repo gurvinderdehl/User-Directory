@@ -9,8 +9,9 @@ export default {
                 return users.map(user => {
                     return {
                         title: user.name.title,
-                        firstName: user.name.first
-                        // lastName
+                        firstName: user.name.first,
+                        lastName: user.name.last
+
                         // email
                         // phone
                         // age OR dob
